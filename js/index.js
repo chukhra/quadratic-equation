@@ -11,7 +11,7 @@ function solveQuadr(a, b, c){       //calculation of the roots of the quadratic 
         return 'no roots!';
     }else if (d === 0){
         const x1 = (-b + Math.sqrt(d)) / (2 * a);
-        return x1;
+        return 'x=' + x1;
     }else{
         const x1 = (-b + Math.sqrt(d)) / (2 * a);
         const x2 = (-b - Math.sqrt(d)) / (2 * a);
