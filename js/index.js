@@ -15,7 +15,10 @@ function solveQuadr(a, b, c){       //calculation of the roots of the quadratic 
     }else{
         const x1 = (-b + Math.sqrt(d)) / (2 * a);
         const x2 = (-b - Math.sqrt(d)) / (2 * a);
-        return x1, x2;
+        return {
+            x1: x1,
+            x2: x2
+        };
     }
 }
 
